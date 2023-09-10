@@ -1561,18 +1561,24 @@ textarea.form-input::-webkit-resizer {
   /**
    * #Profil
    */
+  @font-face {
+    font-family: 'FFYaseer-Regular';
+    /* src: url(/assets/fonts/FFYaseer-Regular.ttf) format('truetype'); */
+    src: url(../fonts/FFYaseer-Regular.ttf)format('truetype');
+    /* You may specify additional properties like font-weight and font-style if needed */
+  }
 
   .profil .article-title {
     margin-bottom: 20px;
   }
 
-  .profil-text {
+  .profil-text p {
     margin-bottom: 40px;
   }
 
   .arabic {
     direction: rtl;
-    font-family: 'Lalezar', cursive;
+    font-family: 'FFYaseer-Regular', sans-serif;
   }
 
   /* .arabic-color {
